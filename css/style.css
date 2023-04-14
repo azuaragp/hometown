@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    background-color: black;
+}
+.title {
+    color: whitesmoke;
+    padding-left: 2em;
+    padding-top: 2em;
+    font-weight: 400;
+    background-color: transparent;
+}
+.subtitle {
+    color: whitesmoke;
+    padding-left: 2.6em;
+    padding-top: 0.3em;
+    font-weight: 290;
+    background-color: transparent;
+}
+p {
+    color: whitesmoke;
+    padding-left: 3.5em;
+    padding-top: 1.8em;
+    padding-bottom: 0em;
+    font-weight: 290;
+    font-size: large;
+    gap: 0.4em;
+    background-color: transparent;
+    width: 38%;
+}
+.date {
+    padding-top: 0em;
+}
+.info {
+    position: relative;
+    top: 110px;
+}
+
+#main {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1.2fr 1fr 1.5fr 1.5fr; 
+    gap: 40px; 
+    padding: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    scale: 90%;
+    position: relative;
+    
+  }
+
+#main > div {
+    padding: 10px;
+    padding-top: 0px;
+  }
+.img_1 {
+    position: relative;
+    top: 90px;
+    left: 25px;
+}
+.img_4 {
+    position: relative;
+    top: -100px;
+    left: -30px;
+}
+.img_7 {
+    position: relative;
+    top: -700px;
+    left: 5px,
+}
+.img_3 {
+    position: relative;
+    top: 20px;
+}
+.img_9 {
+    position: relative;
+    top: -600px;
+    left:20px;
+    scale:80%;
+}
+.img_8 {
+    position: relative;
+    top: -390px;
+    scale:105%;
+}
+.img_6 {
+    position: relative;
+    left: 60px;
+    
+}
+.img_2 {
+    position: relative;
+    top: -20px;
+}
+.img_5 {
+    position: relative;
+    top: -300px;
+}
+.img_10 {
+    position: relative;
+    top: -700px;
+    left: 20px;
+    scale: 115%;
+}
+.img_11 {
+    position: relative;
+    top: -600px;
+    left: 10px;
+}
+.img_12 {
+    position: relative;
+    top: -580px;
+    left: 30px;
+}
+.img_13 {
+    position: relative;
+    top: -1570px;
+}
+.img_14 {
+    position: relative;
+    top: -1400px;
+    scale: 110%;
+}
+.img_15 {
+    position: relative;
+    top: -1470px;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    color: whitesmoke;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    opacity: 40%;
+}
